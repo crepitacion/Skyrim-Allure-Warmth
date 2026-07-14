@@ -1,224 +1,116 @@
-# Skyrim-Allure-Warmth
-An NSFW lite modlist for Skyrim
 # Skyrim Allure & Warmth (SNW) - Modlist v1.4.1
 
-![Skyrim Allure & Warmth Banner](https://via.placeholder.com/800x200?text=Skyrim+Allure+%26+Warmth)
-
-> **"Una experiencia de Skyrim elegante, provocadora y acogedora."**
+> *"An elegant, provocative, and cozy Skyrim experience."*
 
 ---
 
-## 📖 Descripción
+## 📖 Description
 
-**Skyrim Allure & Warmth (SNW)** es una modlist cuidadosamente curada para **Skyrim Special Edition (1.6.1170)** que busca equilibrar tres pilares fundamentales:
+**Skyrim Allure & Warmth (SNW)** is a carefully curated modlist for **Skyrim Special Edition (1.6.1170)** that balances three fundamental pillars:
 
-- **Allure (Atractivo):** Una estética visual impresionante, con cuerpos detallados (CBBE 3BA / HIMBO), físicas avanzadas (CBPC / Faster HDT-SMP), armaduras sugerentes y una iluminación atmosférica que realza cada rincón de Skyrim.
+- **Allure:** A stunning visual aesthetic with detailed bodies (CBBE 3BA / HIMBO), advanced physics (CBPC / Faster HDT-SMP), suggestive armors, and atmospheric lighting that enhances every corner of Skyrim.
 
-- **Warmth (Calidez):** Una experiencia de juego acogedora y envolvente, con seguidores con personalidad (INIGO, Nether's Follower Framework), diálogos expandidos (RDO, More to Say) y un mundo que se siente vivo y receptivo.
+- **Warmth:** A cozy and immersive gameplay experience, with followers that have personality (INIGO, Nether's Follower Framework), expanded dialogue (RDO, More to Say), and a world that feels alive and responsive.
 
-- **Jugabilidad Sólida:** Overhauls de combate (Valravn), magia (Mysticism), saqueo (Summermyst) y progresión (The Art of Smithing) que refrescan la experiencia sin alejarse de la esencia de Skyrim.
+- **Solid Gameplay:** Combat (Valravn), magic (Mysticism), loot (Summermyst), and progression (The Art of Smithing) overhauls that refresh the experience without straying from Skyrim's essence.
 
-**No es una lista NSFW explícita.** SNW está diseñada para jugadores que buscan una aventura **"sexy y provocadora"** en términos de estética y armaduras, pero sin contenido pornográfico explícito.
+**This is not an explicit NSFW list.** SNW is designed for players seeking a **"sexy and provocative"** adventure in terms of aesthetics and armors, but without explicit pornographic content.
 
 ---
 
-## ✨ Características Principales
+## ✨ Key Features
 
-| Categoría | Mods Destacados |
+| Category | Featured Mods |
 |-----------|-----------------|
-| **Núcleo y Frameworks** | SKSE64, Address Library, SPID, JContainers, Engine Fixes, Community Shaders, Papyrus Extender |
-| **Interfaz y Controles** | SkyUI, TrueHUD, True Directional Movement, SmoothCam, iWant Widgets |
-| **Gráficos y Cuerpos** | CBBE 3BA, HIMBO, CBPC, Faster HDT-SMP, BnP Skins, SMIM, DynDOLOD |
-| **Iluminación y Ambiente** | Lux, Lux VIA, Azurite Mists, Enhanced Landscapes, Enhanced Vanilla Trees |
-| **Jugabilidad y Overhauls** | Mysticism, Summermyst, Valravn, Lawless, Gourmet, The Art of Smithing |
-| **Contenido y Misiones** | Beyond Skyrim - Bruma, Wyrmstooth, The Forgotten City |
-| **Seguidores y Diálogos** | INIGO, Nether's Follower Framework, RDO, More to Say |
-| **Animaciones** | Open Animation Replacer, Pandora Behaviour Engine, Animation Motion Revolution |
-| **Personalización Visual** | RaceMenu, OBody NG, KS Hairdos, Community Overlays, Wet Function Redux |
+| **Core & Frameworks** | SKSE64, Address Library, SPID, JContainers, Engine Fixes, Community Shaders, Papyrus Extender |
+| **UI & Controls** | SkyUI, TrueHUD, True Directional Movement, SmoothCam, iWant Widgets |
+| **Graphics & Bodies** | CBBE 3BA, HIMBO, CBPC, Faster HDT-SMP, BnP Skins, SMIM, DynDOLOD |
+| **Lighting & Ambience** | Lux, Lux VIA, Azurite Mists, Enhanced Landscapes, Enhanced Vanilla Trees |
+| **Gameplay & Overhauls** | Mysticism, Summermyst, Valravn, Lawless, Gourmet, The Art of Smithing |
+| **Content & Quests** | Beyond Skyrim - Bruma, Wyrmstooth, The Forgotten City |
+| **Followers & Dialogue** | INIGO, Nether's Follower Framework, RDO, More to Say |
+| **Animations** | Open Animation Replacer, Pandora Behaviour Engine, Animation Motion Revolution |
+| **Visual Customization**| RaceMenu, OBody NG, KS Hairdos, Community Overlays, Wet Function Redux |
 
 ---
 
-## 📋 Requisitos
+## ⚙️ Root Builder Management
 
-### Obligatorios
-- **Juego:** Skyrim Special Edition (v1.6.1170) con todas las Creations y DLCs.
-- **Gestor de Mods:** Mod Organizer 2 (recomendado) o Vortex.
-- **Almacenamiento:** ~60 GB de espacio libre (con outputs de DynDOLOD y xLODGen).
+This list uses **[Root Builder](https://www.nexusmods.com/skyrimspecialedition/mods/31720)** (v2.3.0+) to manage Skyrim's root folder files (SKSE64, Engine Fixes, etc.).
 
-### Herramientas Necesarias
-- [SKSE64](https://skse.silverlock.org/) (v2.2.6 o superior)
-- [BodySlide and Outfit Studio](https://www.nexusmods.com/skyrimspecialedition/mods/201)
-- [DynDOLOD](https://www.nexusmods.com/skyrimspecialedition/mods/68518) (para LODs)
-- [xLODGen](https://www.nexusmods.com/skyrimspecialedition/mods/55518) (para terrenos)
-- [Pandora Behaviour Engine](https://www.nexusmods.com/skyrimspecialedition/mods/133232)
+### Why Root Builder?
+- Keeps your Skyrim root folder clean.
+- Allows managing SKSE64, Engine Fixes, and other `.dll` files directly from MO2.
+- Facilitates creating multiple profiles with different configurations.
 
-### Opcionales
-- **ENB:** La lista está optimizada para **Community Shaders**, pero puedes añadir un ENB si lo deseas.
+### Setup
+1. Install Root Builder from Nexus Mods.
+2. Activate it in MO2: `Plugins → RootBuilder → Enabled`.
+3. Install mods containing root files (SKSE64, Engine Fixes, etc.) normally in MO2.
+4. Root Builder will automatically move them to the root folder when you launch the game.
+
+### Mods Requiring Root Builder in this List
+- Skyrim Script Extender (SKSE64)
+- Engine Fixes
+- SSE Display Tweaks
+- (Any other mod that installs `.dll` or `.exe` files in the root folder)
 
 ---
 
-## 🔧 Instalación
-
-### 1. Preparación del Juego
-
-# Limpia tu instalación de Skyrim (recomendado)
-# Asegúrate de tener la versión 1.6.1170 con todas las Creations
-
-2. Instalación de Herramientas
-
-    Descarga e instala SKSE64 en la carpeta raíz de Skyrim.
-
-    Instala Mod Organizer 2 (o Vortex).
-
-3. Descarga de Mods
-
-    La lista completa está en SNW_list_of_mods_rev10.csv.
-
-    Orden de instalación: Sigue el orden de prioridades indicado en el archivo.
-
-    Mods de Nexus: Descarga los mods desde sus URLs oficiales.
-
-    Mods fuera de Nexus:
-
-        High Poly Head SE: Descárgalo desde VectorPlexus.
-
-4. Generación de Outputs
-
-Ejecuta estas herramientas en el orden indicado:
-bash
-
-1. xLODGen → SNW - xLODGen Output
-2. TexGen (DynDOLOD) → SNW - TexGen Output
-3. DynDOLOD → SNW - DynDOLOD Output
-4. BodySlide → SNW - Bodyslide Output
-5. Pandora Behaviour Engine → SNW - Pandora Output
-
-5. Configuración Final
-
-    Asegúrate de que todos los outputs estén activos en tu gestor de mods.
-
-    Revisa los ajustes en MCM para personalizar tu experiencia.
-
-🎮 Guía de Inicio Rápido
-Primeros Pasos
-
-    Skyrim Unbound Reborn: La lista usa Skyrim Unbound para un inicio alternativo. Configura tu personaje y comienza donde quieras.
-
-    Personalización Visual:
-
-        Usa RaceMenu para ajustar tu personaje.
-
-        OBody NG te permite cambiar el cuerpo de tu personaje y NPCs en tiempo real.
-
-    Seguidores:
-
-        INIGO está disponible en Riften (carcel).
-
-        Nether's Follower Framework te permite gestionar múltiples seguidores.
-
-    Overhauls de Juego:
-
-        Mysticism expande la magia con nuevos hechizos.
-
-        Summermyst añade encantamientos únicos.
-
-        Valravn mejora el combate (bloqueo, resistencia, etc.).
-
-⚙️ Mods Destacados (Selección)
-Estética y Cuerpos
-Mod	Descripción
-CBBE 3BA	Cuerpo femenino con físicas avanzadas
-HIMBO	Cuerpo masculino detallado
-BnP Skins	Texturas de piel realistas
-Community Overlays	Tatuajes y marcas corporales
-Armaduras (Selección {c}ELLE)
-
-La lista incluye una colección de armaduras 3BA de alta calidad:
-
-    Abyss, Apothecary, Bifrost, Chaosrunner, Dangerous Gladiator, Dark Assassin, Dark Rebel, Demon, Dilirogue, Dominique, Dremorn Witch, Elven Assassin, Elven Lake, Fawnia, Ginnungagap, Kabuki, Love Potion, Mageali, October Seer, Roca, Sol, Swan, Tribal Scout, Wicked Corruption.
-
-Iluminación y Entorno
-Mod	Descripción
-Lux	Iluminación interior atmosférica
-Azurite Mists	Nieblas y atmósfera
-Enhanced Landscapes	Vegetación y paisajes mejorados
-Jugabilidad
-Mod	Descripción
-Mysticism	Overhaul de magia
-Summermyst	Encantamientos únicos
-Valravn	Combate equilibrado
-Lawless	Overhaul de bandidos
-🛠️ Solución de Problemas Comunes
-CTD al iniciar el juego
-
-    Asegúrate de tener SKSE64 instalado correctamente.
-
-    Verifica que Engine Fixes esté activo y configurado.
-
-    Revisa que todos los modos tengan sus dependencias instaladas.
-
-Rostros negros o de otro color
-
-    Face Discoloration Fix SE está incluido. Asegúrate de que esté activo.
-
-    Si persiste, regenera los Facegen en el CK.
-
-Físicas no funcionan
-
-    Verifica que CBPC y Faster HDT-SMP estén activos.
-
-    Asegúrate de que XPMSSE esté instalado y cargado correctamente.
-
-Problemas con Lux o iluminación
-
-    Revisa que todos los parches de Lux estén activos y en el orden correcto.
-
-    Ejecuta Lux - Patch Hub para regenerar parches si añades nuevos mods.
-
-DynDOLOD / xLODGen
-
-    Si ves parches de terreno o LODs incorrectos, regenera los outputs.
-
-    Asegúrate de tener suficiente memoria y espacio en disco.
-
-📝 Créditos y Agradecimientos
-
-    Nexus Mods y todos los creadores de mods que hacen posible esta lista.
-
-    Community Shaders por proporcionar una alternativa ligera a ENB.
-
-    Equipo de SKSE, Address Library, SPID, etc. por los frameworks esenciales.
-
-    {c}ELLE y los creadores de armaduras por su increíble trabajo.
-
-📜 Licencia y Uso
-
-    Esta lista es de uso gratuito y personal.
-
-    Puedes compartirla y modificarla, pero no redistribuyas los mods sin permiso de sus autores.
-
-    Los mods individuales tienen sus propias licencias; respétalas.
-
-🔗 Enlaces Útiles
-Recurso	URL
-Nexus Mods	https://www.nexusmods.com/skyrimspecialedition
-SKSE64	https://skse.silverlock.org/
-Mod Organizer 2	https://www.nexusmods.com/skyrimspecialedition/mods/6194
-High Poly Head	https://vectorplexus.com/files/file/320-high-poly-head-se/
-🆘 Soporte
-
-Si encuentras problemas o tienes preguntas:
-
-    Revisa la sección de "Solución de Problemas" arriba.
-
-    Consulta los comentarios de los mods individuales en Nexus.
-
-    Busca ayuda en comunidades como r/skyrimmods o Discord de modding.
-
-📊 Estado de la Lista
-Versión	Fecha	Estado
-v1.4.1	Julio 2026	Estable
-
-¡Disfruta de Skyrim como nunca antes!
-
-"Allure & Warmth - La experiencia definitiva de Skyrim."
+## 💻 Performance & System Requirements
+
+### Recommended Hardware
+
+| Component | Minimum (1080p) | Recommended (1440p) |
+|-----------|-----------------|----------------------|
+| **CPU** | Intel i5-8400 / AMD R5 2600 | Intel i7-10700 / AMD R7 3700X |
+| **GPU** | GTX 1660 Super / RX 580 (6GB) | RTX 3060 / RX 6700 XT (8GB+) |
+| **RAM** | 16 GB | 32 GB |
+| **Storage** | SSD (60 GB) | SSD NVMe (70 GB) |
+| **OS** | Windows 10/11 | Windows 11 |
+
+### In-Game Performance
+- **1080p (FHD):** 45-60 FPS in most areas, minimum 32 FPS in demanding scenes.
+- **1440p (QHD):** Stable performance with 2K textures and medium DynDOLOD settings.
+- **Configuration:** The list uses Community Shaders (no ENB) and Lux for lighting, which improves performance compared to traditional ENBs.
+
+### Performance Tuning
+- Use 2K textures instead of 4K (the list uses 2K by default).
+- Reduce DynDOLOD resolution to "Medium" or "Low".
+- Disable optional particle or mist mods (Azurite Mists, etc.).
+
+---
+
+## 📋 Requirements
+
+### Mandatory
+- **Game:** Skyrim Special Edition (v1.6.1170) with all Creations and DLCs.
+- **Mod Manager:** Mod Organizer 2 (v2.5.0+) with Root Builder (v2.3.0+).
+- **Tools:** SKSE64 (v2.2.6), BodySlide, DynDOLOD, xLODGen, Pandora Behaviour Engine.
+- **Storage:** ~60 GB of free space (including DynDOLOD and xLODGen outputs).
+
+### Operating System
+- Windows 10/11 (64-bit) only.
+
+---
+
+## 📦 Compatible Versions
+
+| Component | Version |
+|-----------|---------|
+| **Skyrim SE** | 1.6.1170.0 (AE) |
+| **SKSE64** | 2.2.6 |
+| **Root Builder** | 2.3.0+ |
+| **MO2** | 2.5.0+ |
+| **BodySlide** | 5.6.0+ |
+| **DynDOLOD** | 3.0.0+ |
+| **xLODGen** | 96+ |
+
+---
+
+## 🔧 Installation
+
+### 1. Game Preparation
+```bash
+# Clean your Skyrim installation (recommended)
+# Ensure you have version 1.6.1170 with all Creations
