@@ -1,0 +1,32 @@
+2. Tool Installation
+
+    Download and install SKSE64 in Skyrim's root folder.
+
+    Install Mod Organizer 2 (with Root Builder plugin).
+
+3. Mod Download
+
+    The full list is in SNW_list_of_mods_rev10.csv.
+
+    Installation Order: Follow the priority order in the CSV file.
+
+    Nexus Mods: Download mods from their official URLs.
+
+    Non-Nexus Mods:
+
+        High Poly Head SE: Download from VectorPlexus.
+
+4. Output Generation
+
+Run these tools in the indicated order:
+1. xLODGen → SNW - xLODGen Output
+2. TexGen (DynDOLOD) → SNW - TexGen Output
+3. DynDOLOD → SNW - DynDOLOD Output
+4. BodySlide → SNW - Bodyslide Output
+5. Pandora Behaviour Engine → SNW - Pandora Output
+
+5. Final Configuration
+
+    Ensure all outputs are active in your mod manager.
+
+    Review MCM settings to customize your experience.
