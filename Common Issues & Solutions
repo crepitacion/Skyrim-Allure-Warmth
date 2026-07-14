@@ -1,0 +1,31 @@
+CTD on Game Launch
+
+    Ensure SKSE64 is correctly installed.
+
+    Verify Engine Fixes is active and configured.
+
+    Check that all mods have their dependencies installed.
+
+Black or Discolored Faces
+
+    Face Discoloration Fix SE is included; ensure it's active.
+
+    If it persists, regenerate Facegen in the Creation Kit.
+
+Physics Not Working
+
+    Verify CBPC and Faster HDT-SMP are active.
+
+    Ensure XPMSSE is installed and loaded correctly.
+
+Lux or Lighting Issues
+
+    Check that all Lux patches are active and in the correct order.
+
+    Run Lux - Patch Hub to regenerate patches if you add new mods.
+
+DynDOLOD / xLODGen
+
+    If you see terrain patches or incorrect LODs, regenerate the outputs.
+
+    Ensure you have enough memory and disk space.
